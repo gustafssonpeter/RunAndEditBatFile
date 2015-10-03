@@ -88,11 +88,11 @@ use %DATABASE_P%
 update databaser set dat_databas = '%DATABASE_P%', dat_orgdatabas='%DATABASE_P%', dat_servernamn='%CLIENT%' where dat_typ ='P'
 Exec GrantAnalytixPermissions";
 
-        //public Form1()
-        //{
-        //    InitializeComponent();
-        //    loadSettings();
-        //}
+        public Form1()
+        {
+            InitializeComponent();
+            loadSettings();
+        }
 
         //Start button
         private void button1_Click(object sender, EventArgs e)
