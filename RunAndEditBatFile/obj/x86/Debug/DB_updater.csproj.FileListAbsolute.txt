@@ -1,0 +1,12 @@
+D:\svn\RunAndEditBatFile\bin\Debug\DB_Updater.exe.config
+D:\svn\RunAndEditBatFile\bin\Debug\DB_Updater.exe
+D:\svn\RunAndEditBatFile\bin\Debug\DB_Updater.pdb
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Form1.resources
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Properties.Resources.resources
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_updater.csproj.GenerateResource.Cache
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_Updater.exe
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_Updater.pdb
+D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_updater.csprojResolveAssemblyReference.cache
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\bin\Debug\DB_Updater.exe.config
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.exe
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.pdb
