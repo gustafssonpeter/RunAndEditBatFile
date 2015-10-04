@@ -14,5 +14,3 @@ C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\De
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Form1.resources
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Properties.Resources.resources
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_updater.csproj.GenerateResource.Cache
-C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\bin\Debug\DB_Updater.exe
-C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\bin\Debug\DB_Updater.pdb
