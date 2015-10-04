@@ -10,3 +10,7 @@ D:\svn\RunAndEditBatFile\obj\x86\Debug\DB_updater.csprojResolveAssemblyReference
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\bin\Debug\DB_Updater.exe.config
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.exe
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.pdb
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_updater.csprojResolveAssemblyReference.cache
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Form1.resources
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.Properties.Resources.resources
+C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_updater.csproj.GenerateResource.Cache
