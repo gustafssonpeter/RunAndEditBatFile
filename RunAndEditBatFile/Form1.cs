@@ -283,7 +283,7 @@ Exec GrantAnalytixPermissions";
                     isRestored = true;
                     startFile("C:\\Databaser\\DBupdate_RestoreToOtherFiles.bat");
 
-                //}
+                }
                 else
                     MessageBox.Show("One (or both) of the backup files to restore from doesn't exists");
             }
