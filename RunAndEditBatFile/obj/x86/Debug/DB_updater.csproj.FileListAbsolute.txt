@@ -1,4 +1,3 @@
-
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\bin\Debug\DB_Updater.exe.config
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.exe
 C:\Users\Peter_G\Documents\GitHub\RunAndEditBatFile\RunAndEditBatFile\obj\x86\Debug\DB_Updater.pdb
