@@ -21,24 +21,24 @@ namespace DB_Updater
         int count, from, to, outputValue, rbState;
         bool isFirstRun, isNumberFrom, isNumberTo, isRestoreFromBase, isNotLocalServer, isRestored;
 
-//        string help =
-//@"To use this program you need to create the directory C:\Databaser on your computer. This directory need to be shared to the network.
+        string help =
+@"To use this program you need to create the directory C:\Databaser on your computer. This directory need to be shared to the network.
 
-//You also need to put the unziped Database QF files in the direcory ""Path to folder of QF upgrade files""";
+You also need to put the unziped Database QF files in the direcory ""Path to folder of QF upgrade files""";
 
-//        string copyFiles =
-//@"
-//copy /Y \\profdoc.lab\dfs01\Gemensam\Test\Verktyg\unzip.exe c:\Databaser\unzip.exe
-//copy \\profdoc.lab\dfs01\Databaser\Test\Orginal\%VERSION%\P%FILE_VERSION%TCO_LATEST.bak c:\Databaser\P%FILE_VERSION%TCO_LATEST.bak
-//copy \\profdoc.lab\dfs01\Databaser\Test\Orginal\%VERSION%\H%FILE_VERSION%TCO_LATEST.bak c:\Databaser\H%FILE_VERSION%TCO_LATEST.bak";
+        string copyFiles =
+@"
+copy /Y \\profdoc.lab\dfs01\Gemensam\Test\Verktyg\unzip.exe c:\Databaser\unzip.exe
+copy \\profdoc.lab\dfs01\Databaser\Test\Orginal\%VERSION%\P%FILE_VERSION%TCO_LATEST.bak c:\Databaser\P%FILE_VERSION%TCO_LATEST.bak
+copy \\profdoc.lab\dfs01\Databaser\Test\Orginal\%VERSION%\H%FILE_VERSION%TCO_LATEST.bak c:\Databaser\H%FILE_VERSION%TCO_LATEST.bak";
 
-//        string upgradeToLatestTrunk =
-//@"
-//for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do copy /Y ""\\profdoc.lab\dfs01\System\Autobuild\%%i.exe"" ""c:\databaser""
-//for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do unzip ""c:\databaser\%%i.exe""
-//for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do cd ""c:\databaser\%%i""
-//START /B ""Upgrade historic"" ""Upgrade Historic.bat"" SYSADM SYSADM %DATABASE_H% %CLIENT_UPGRADE%
-//START ""Upgrade production"" ""Upgrade Production.bat"" SYSADM SYSADM %DATABASE_P% %CLIENT_UPGRADE%";
+        string upgradeToLatestTrunk =
+@"
+for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do copy /Y ""\\profdoc.lab\dfs01\System\Autobuild\%%i.exe"" ""c:\databaser""
+for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do unzip ""c:\databaser\%%i.exe""
+for /f ""delims="" %%i in (\\profdoc.lab\dfs01\System\Autobuild\dblatest.txt) do cd ""c:\databaser\%%i""
+START /B ""Upgrade historic"" ""Upgrade Historic.bat"" SYSADM SYSADM %DATABASE_H% %CLIENT_UPGRADE%
+START ""Upgrade production"" ""Upgrade Production.bat"" SYSADM SYSADM %DATABASE_P% %CLIENT_UPGRADE%";
 
         string runRestoreScript =
 @"
